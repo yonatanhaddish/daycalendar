@@ -2,7 +2,7 @@ var button= $('.saveBtn');
 
 button.on("click", function(event) {
     event.preventDefault();
-    var text= $(this).siblings('.col-sm-10').val().replace();
+    var text= $(this).siblings('.col-sm-10').val().replace(/['"]+/g, '');
     var parent= $(this).parent().attr('id');
     console.log(text);
     console.log(parent);
@@ -20,12 +20,14 @@ $('#16 textarea').val(localStorage.getItem('16').replace(/['"]+/g, ''));
 $('#17 textarea').val(localStorage.getItem('17').replace(/['"]+/g, ''));
 
 
+button.on('click', function (event) {
+    $('selector').css('cursor', 'i')
+  })
 
 
+var date= moment().format('dddd, MMMM Do');
 
-
-
-
+$('#currentDay').text(date);
 
 
 
