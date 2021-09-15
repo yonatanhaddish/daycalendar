@@ -48,6 +48,67 @@ $(document).ready(function() {
     
     button.on('click', function (event) {
         $('selector').css('cursor', 'i')
-    });
+    })
     
 });
+
+///////////////////////////////////////////////////////////////////
+// favStored= [];
+
+// function toggleCheckbox(el) {
+
+//   if (el.children[1].checked) {
+//   console.log(el.children[2].textContent);
+  
+//   favStored.push(el.children[2].textContent); 
+//   localStorage.setItem("Fav", favStored);
+  
+// }
+
+// else {
+  
+// }
+
+
+
+// console.log(favStored);
+
+  
+// };
+//////////////////////////////////////////////////////////////////
+// $('input[type="checkbox"]').change(function() {
+
+//     if ($(this).prop("checked") == true) {
+//       console.log("checked")
+//     }
+//     else if ($(this).prop("checked") == false) {
+//       console.log("unchecked");
+//     }
+//   })
+
+
+
+//   document.getElementById(symbol).onclick= function faV() {
+//     console.log(name);
+//   };
+
+/////////////////////////////////////////////////////////////////////////
+//   ???????????????????????????????
+// $('.star').on("click", function() {
+//     // if ($(this).checked) {
+//       // remove the checked stated because we no longer want it to be checked
+//       // $('.star').toggle($(this).checked);
+//       // REMOVE the symobl of what was clicked $( this ).data("symbol") FROM local storage
+//     //}
+//     // else {
+//       // toggle the state to checked
+//       // $('.star').toggle($(this).checked);
+//       // ADD the symbol of what was clicked $( this ).data("symbol") TO local storage
+//     //}
+//     $('.star').toggle($(this).checked);
+//     console.log("clicked on a star", $( this ).data("symbol"));
+//   });
+
+  ////////////////////////////////////////////////////////////////////////////
+
+
